@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+
+
+}
+.Container_web{
+    background-color:#F6F6F6;
+    height: 80vh;
+    width:  150vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 0px 0px rgba(199,255,201,0);     
+    
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: #F6F6F6;;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: #464242 solid;
+    
+}
+
+
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.Menu_list  {    
+    list-style: none;
+    display: flex;
+    margin: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.Menu_list   a:hover{
+    background-color: #3AB4F2;
+    border-radius: 20px;
+
+}
+
+.li_but{
+
+    background-color: #3AB4F2;
+    border-radius: 20px;
+    font-size: 20px;
+    
+
+}
+
+.texto{
+    margin-left: 20px;
+}
+
+
+
+.Container_all{
+    display: grid;
+    width: 100%;
+    height: 80%;
+    margin: 20px;
+    grid-template-columns: 0.5fr 1.5fr;
+    gap: 5px;
+    
+}
+
+.Container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.Container_text h1{
+    margin: 0px;
+    color: #464242;
+}
+
+.Container_text p{
+    color: #696161;
+}
+
+
+.Container_text button{
+    border-radius: 25px;
+    text-align: center;
+    height: 55px;
+    width: 180px;
+    background-color: #3AB4F2;
+    color: #F6F6F6;
+    
+}
+
+
+.Container_image{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/24/02/14/music-1106439_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 97%;
+    margin-top: 30px;
+}
+
+.texto_buton{
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
